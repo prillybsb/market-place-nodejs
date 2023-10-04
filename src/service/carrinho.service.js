@@ -1,4 +1,4 @@
-const Carrinho = require("./model/Carrinho");
+const Carrinho = require("../model/Carrinho");
 
 const findCarrinhoByIdService = (id) => {
   return Carrinho.findById(id);
